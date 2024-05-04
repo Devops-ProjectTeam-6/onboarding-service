@@ -19,9 +19,9 @@ spring:
     name: ONBOARDING-SERVICE
 
   datasource:
-    url: database-1.c3esb8f8pxjo.us-east-1.rds.amazonaws.com
-    username: admin
-    password: Devops898
+    url: jdbc:mysql://localhost:3306/myroom
+    username: root
+    password: password
 
   jpa:
     show-sql: true
