@@ -29,9 +29,7 @@ spring:
       ddl-auto: create-drop
 
   kafka:
-    bootstrap-servers: localhost:9092
-
-
+    bootstrap-servers: http://3.229.47.37:8761/eureka
 # Eureka Configuration
 eureka:
   client:
