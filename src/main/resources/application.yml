@@ -29,7 +29,10 @@ spring:
       ddl-auto: create-drop
 
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: ec2-34-234-196-243.compute-1.amazonaws.com:9092
+    advertised:
+      host:
+        name: 34.234.196.243
 # Eureka Configuration
 eureka:
   client:
